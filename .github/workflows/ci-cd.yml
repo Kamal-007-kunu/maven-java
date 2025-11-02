@@ -33,7 +33,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: build-output
-          path: app.tar.gz
+          path: devopsmaven/app.tar.gz
 
   deploy:
     runs-on: ubuntu-latest
