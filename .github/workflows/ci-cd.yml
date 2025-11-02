@@ -26,6 +26,7 @@ jobs:
 
       - name: Archive build artifacts
         run: tar -czf app.tar.gz Dockerfile target/
+        working-directory: devopsmaven
         # bundles jar + Dockerfile
 
       - name: Upload artifact
